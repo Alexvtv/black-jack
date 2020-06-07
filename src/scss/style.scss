@@ -1,0 +1,133 @@
+@import "~bootstrap/scss/bootstrap";
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background: url('/images/background.jpg');
+	padding-top: 50px;
+}
+.table {
+	position: relative;
+	border: 5px solid #3b200a;
+	margin-left: calc(50vw - 260px);
+	background: url('/images/background-table.jpg');
+	width: 500px;
+	height: 400px;
+	background-size: cover;
+	border-radius: 40px;
+}
+.card {
+	width: 60px;
+	height: 85px;
+}
+.deck {
+	position: absolute;
+	right: 80px;
+	top: 150px;
+}
+.your-cards {
+	text-align: center;
+	bottom: 20px;
+	left: 20px;
+	position: absolute;
+	height: 120px;
+	width: 450px;
+	img {
+		display: inline-block;
+	}
+}
+.dealer-cards {
+	text-align: center;
+	top: 20px;
+	left: 50px;
+	position: absolute;
+	height: 120px;
+	width: 400px;
+	img {
+		display: inline-block;
+	}
+}
+.dealer-total {
+	float: right;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	border: 2px solid #3b200a;
+	border-radius: 7px;
+}
+.player-total {
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	border: 2px solid #3b200a;
+	border-radius: 7px;
+	position: absolute;
+	top: 96px;
+	left: 404px;
+}
+.total-split {
+	float: left;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	border: 2px solid #3b200a;
+	border-radius: 7px;
+	position: absolute;
+	top: 96px;
+	left: 20px;
+}
+.gameButtons {
+	position: absolute;
+	bottom: 0;
+	height: 25px;
+	width: 100%;
+	button, input {
+		outline: none;
+		margin: 0 5px;
+		border: 1px solid #3b200a;
+		font-size: 14px;
+		height: 25px;
+		width: 70px;
+		display: inline-block;
+	}
+	.cancel-button:hover {
+		background-color: #de8585;
+	}
+	.add-button:hover {
+		background-color: #85de88;
+	}
+	.split-button:hover {
+		background-color: #d6d980;
+	}
+}
+.start-game {
+	position: relative;
+	font-size: 15px;
+	width: 340px;
+	height: 20px;
+	margin: 170px 0 0 50px;
+	outline: none;
+	input {
+		width: 70px;
+		margin-right: 30px;
+		display: inline-block;
+		height: 20px;
+	}
+	input[type='button'] {
+		width: 60px;
+		margin-right: 10px;
+		display: inline-block;
+		height: 25px;
+		border: 0;
+	}
+	p {
+		color: #fff;
+		margin-left: 20px;
+		display: inline-block;
+	}
+	form {
+		display: inline-block;
+		margin-right: -10px;
+	}
+}
+
